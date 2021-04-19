@@ -1,23 +1,25 @@
-=== Theme Name ===
+=== Terrene Theme ===
 Requires at least: 5.0
 Tested up to: 5.7
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
 
-Short Description. no more that 150 chars.
-
 == Description ==
 A theme designed for Terrene Development.  A concrete contracting company.
+Some features will eventually be turned into plugins rather than theme specific items. 
 
 == Changelog ==
 
-= 1.0 =
+= 1.4 =
 * Added default Theme mechanics
+* Added a slideshow to the top of the pages
 
 == Resources ==
 
 
+
+== Ignore below this.  It's my work list for the specific site. ==
 
 
 == Up next == 
