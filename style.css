@@ -1,0 +1,186 @@
+/*
+Theme Name: Terrene Theme
+Theme URI: 
+Author: Cory Paulley
+Author URI: http://www.paulleysoftware.rocks
+Description: Theme built for Terrene Development
+Version: 1.0.5
+License: GNU General Publice License v2 or later
+License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
+Text-Domain: terrene-theme
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+/* Reset box-sizing for everything */
+* {
+  box-sizing: border-box;
+}
+
+/* Set basic elements for body */
+body {
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  text-align: left;
+  font-size: 14px;
+  line-height: 17px;
+  word-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: 'liga' 0;
+  -ms-font-feature-settings: 'liga' 0;
+  -webkit-font-feature-settings: 'liga' 0;
+  font-feature-settings: 'liga' 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.slide-cover {
+  width: 100%;
+  height: 40vh;
+  object-fit: fill;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next and Prev buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption Text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number Text (1 / 3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* End slideshow styles */
+
+/* Social Media links */
+.socialmedia {
+  width: 100%;
+  height: 100%;
+}
+
+.socialmedia-link img {
+  width: 50px;
+  height: 50px;
+}
+
+/* Resize the logo in the navbar */
+.navbar-brand img {
+  width: 150px;
+  aspect-ratio: auto 150/135;
+  height: 135px;
+}
+
+/* Style top Navigation */
+.top-nav .active {
+  background-color: #d3d3d3;
+}
+
+.top-nav li:hover {
+  background-color: #c0c0c0;
+}
+
+/* Style the bottom Navigation */
+.menu {
+  list-style-type: none;
+  margin: 0;
+}
+.menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu .li:hover {
+  background-color: #c0c0c0;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
