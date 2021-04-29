@@ -48,5 +48,6 @@ get_template_part( 'navigation' );
     </div><!-- .site-content -->
 
 <?php 
+    get_template_part( 'bottomfoot' );
     get_footer();
 ?>

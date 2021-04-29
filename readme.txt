@@ -24,6 +24,8 @@ Some features will eventually be turned into plugins rather than theme specific 
 
 == Up next == 
 
+Fix image stretching in the slideshow
+
 Still need to define out the job types, photo gallery etc in services page
 
 Design the content portion of the pages

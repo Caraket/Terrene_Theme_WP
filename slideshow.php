@@ -2,12 +2,10 @@
 <header>
   <?php if(get_theme_mod('terrene-theme-slideshow-display') == "Yes") { ?>
     <div class="slideshow-container">
-      <div class="mySlides fade">
-        
-
       <!-- Home Page -->
         <?php 
           if( is_page( 'Home' )) { ?>
+          <div class="mySlides fade">
             <img src="<?php echo wp_get_attachment_url(get_theme_mod('terrene-theme-slideshow-home-image1')) ?>" alt="" class="slide-cover">
             </div>
             <div class="mySlides fade">
@@ -21,6 +19,7 @@
       <!-- About Us -->
         <?php 
           if( is_page( 'about-us' ) ) { ?>
+          <div class="mySlides fade">
             <img src="<?php echo wp_get_attachment_url(get_theme_mod('terrene-theme-slideshow-about-image1')) ?>" alt="" class="slide-cover">
             </div>
             <div class="mySlides fade">
@@ -35,6 +34,7 @@
       <!-- Services -->
       <?php 
           if( is_page( 'services' ) ) { ?>
+          <div class="mySlides fade">
             <img src="<?php echo wp_get_attachment_url(get_theme_mod('terrene-theme-slideshow-services-image1')) ?>" alt="" class="slide-cover">
             </div>
             <div class="mySlides fade">
@@ -50,6 +50,7 @@
 
         <?php 
           if( is_page( 'contact-us' ) ) { ?>
+          <div class="mySlides fade">
             <img src="<?php echo wp_get_attachment_url(get_theme_mod('terrene-theme-slideshow-contact-image1')) ?>" alt="" class="slide-cover">
             </div>
             <div class="mySlides fade">

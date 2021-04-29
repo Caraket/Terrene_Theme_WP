@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Full Width Template
+Template Name: Construction Template
 Template Post Type: post, page
 */
 
@@ -13,8 +13,6 @@ Template Post Type: post, page
 
 
 get_header();
-get_template_part( 'slideshow' );
-get_template_part( 'navigation' );
 ?>
     <div class="site-content">
         <?php 
@@ -48,6 +46,5 @@ get_template_part( 'navigation' );
     </div><!-- .site-content -->
 
 <?php 
-    get_template_part( 'bottomfoot' );
     get_footer();
 ?>
