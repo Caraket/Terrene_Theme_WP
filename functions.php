@@ -194,98 +194,98 @@ add_action( 'wp_enqueue_scripts', 'terrene_theme_enqueue_scripts' );
 
         // End Home page images
 
-        // About Us Images
-        $wp_customize->add_setting('terrene-theme-slideshow-about-image1');
+        // // About Us Images
+        // $wp_customize->add_setting('terrene-theme-slideshow-about-image1');
 
-        $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-about-image1-control', array(
-            'label' => 'About Us Image 1',
-            'section' => 'terrene-theme-slideshow-section',
-            'settings' => 'terrene-theme-slideshow-about-image1', 
-            'width' => 750,
-            'height' => 700
-        )));
-        $wp_customize->add_setting('terrene-theme-slideshow-about-image2');
+        // $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-about-image1-control', array(
+        //     'label' => 'About Us Image 1',
+        //     'section' => 'terrene-theme-slideshow-section',
+        //     'settings' => 'terrene-theme-slideshow-about-image1', 
+        //     'width' => 750,
+        //     'height' => 700
+        // )));
+        // $wp_customize->add_setting('terrene-theme-slideshow-about-image2');
 
-        $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-about-image2-control', array(
-            'label' => 'About Us Image 2',
-            'section' => 'terrene-theme-slideshow-section',
-            'settings' => 'terrene-theme-slideshow-about-image2', 
-            'width' => 750,
-            'height' => 700
-        )));
-        $wp_customize->add_setting('terrene-theme-slideshow-about-image3');
+        // $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-about-image2-control', array(
+        //     'label' => 'About Us Image 2',
+        //     'section' => 'terrene-theme-slideshow-section',
+        //     'settings' => 'terrene-theme-slideshow-about-image2', 
+        //     'width' => 750,
+        //     'height' => 700
+        // )));
+        // $wp_customize->add_setting('terrene-theme-slideshow-about-image3');
 
-        $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-about-image3-control', array(
-            'label' => 'About Us Image 3',
-            'section' => 'terrene-theme-slideshow-section',
-            'settings' => 'terrene-theme-slideshow-about-image3', 
-            'width' => 750,
-            'height' => 700
-        )));
+        // $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-about-image3-control', array(
+        //     'label' => 'About Us Image 3',
+        //     'section' => 'terrene-theme-slideshow-section',
+        //     'settings' => 'terrene-theme-slideshow-about-image3', 
+        //     'width' => 750,
+        //     'height' => 700
+        // )));
 
-        // End About Us Images
+        // // End About Us Images
 
-        // Start Services Images
+        // // Start Services Images
 
-        $wp_customize->add_setting('terrene-theme-slideshow-services-image1');
+        // $wp_customize->add_setting('terrene-theme-slideshow-services-image1');
 
-        $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-services-image1-control', array(
-            'label' => 'Services Us Image 1',
-            'section' => 'terrene-theme-slideshow-section',
-            'settings' => 'terrene-theme-slideshow-services-image1', 
-            'width' => 750,
-            'height' => 700
-        )));
-        $wp_customize->add_setting('terrene-theme-slideshow-services-image2');
+        // $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-services-image1-control', array(
+        //     'label' => 'Services Us Image 1',
+        //     'section' => 'terrene-theme-slideshow-section',
+        //     'settings' => 'terrene-theme-slideshow-services-image1', 
+        //     'width' => 750,
+        //     'height' => 700
+        // )));
+        // $wp_customize->add_setting('terrene-theme-slideshow-services-image2');
 
-        $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-services-image2-control', array(
-            'label' => 'Services Us Image 2',
-            'section' => 'terrene-theme-slideshow-section',
-            'settings' => 'terrene-theme-slideshow-services-image2', 
-            'width' => 750,
-            'height' => 700
-        )));
-        $wp_customize->add_setting('terrene-theme-slideshow-services-image3');
+        // $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-services-image2-control', array(
+        //     'label' => 'Services Us Image 2',
+        //     'section' => 'terrene-theme-slideshow-section',
+        //     'settings' => 'terrene-theme-slideshow-services-image2', 
+        //     'width' => 750,
+        //     'height' => 700
+        // )));
+        // $wp_customize->add_setting('terrene-theme-slideshow-services-image3');
 
-        $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-services-image3-control', array(
-            'label' => 'Services Image 3',
-            'section' => 'terrene-theme-slideshow-section',
-            'settings' => 'terrene-theme-slideshow-services-image3', 
-            'width' => 750,
-            'height' => 700
-        )));
+        // $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-services-image3-control', array(
+        //     'label' => 'Services Image 3',
+        //     'section' => 'terrene-theme-slideshow-section',
+        //     'settings' => 'terrene-theme-slideshow-services-image3', 
+        //     'width' => 750,
+        //     'height' => 700
+        // )));
 
-        // End Services Images
+        // // End Services Images
 
-        // Start Contact Us Images
+        // // Start Contact Us Images
 
-        $wp_customize->add_setting('terrene-theme-slideshow-contact-image1');
+        // $wp_customize->add_setting('terrene-theme-slideshow-contact-image1');
 
-        $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-contact-image1-control', array(
-            'label' => 'Contact Us Image 1',
-            'section' => 'terrene-theme-slideshow-section',
-            'settings' => 'terrene-theme-slideshow-contact-image1', 
-            'width' => 750,
-            'height' => 700
-        )));
-        $wp_customize->add_setting('terrene-theme-slideshow-contact-image2');
+        // $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-contact-image1-control', array(
+        //     'label' => 'Contact Us Image 1',
+        //     'section' => 'terrene-theme-slideshow-section',
+        //     'settings' => 'terrene-theme-slideshow-contact-image1', 
+        //     'width' => 750,
+        //     'height' => 700
+        // )));
+        // $wp_customize->add_setting('terrene-theme-slideshow-contact-image2');
 
-        $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-contact-image2-control', array(
-            'label' => 'Contact Us Image 2',
-            'section' => 'terrene-theme-slideshow-section',
-            'settings' => 'terrene-theme-slideshow-contact-image2', 
-            'width' => 750,
-            'height' => 700
-        )));
-        $wp_customize->add_setting('terrene-theme-slideshow-contact-image3');
+        // $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-contact-image2-control', array(
+        //     'label' => 'Contact Us Image 2',
+        //     'section' => 'terrene-theme-slideshow-section',
+        //     'settings' => 'terrene-theme-slideshow-contact-image2', 
+        //     'width' => 750,
+        //     'height' => 700
+        // )));
+        // $wp_customize->add_setting('terrene-theme-slideshow-contact-image3');
 
-        $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-contact-image3-control', array(
-            'label' => 'Contact Us Image 3',
-            'section' => 'terrene-theme-slideshow-section',
-            'settings' => 'terrene-theme-slideshow-contact-image3', 
-            'width' => 750,
-            'height' => 700
-        )));
+        // $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'terrene-theme-slideshow-callout-contact-image3-control', array(
+        //     'label' => 'Contact Us Image 3',
+        //     'section' => 'terrene-theme-slideshow-section',
+        //     'settings' => 'terrene-theme-slideshow-contact-image3', 
+        //     'width' => 750,
+        //     'height' => 700
+        // )));
 
         // End Contact Us Images
 
