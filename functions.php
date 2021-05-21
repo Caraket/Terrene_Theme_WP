@@ -2,6 +2,7 @@
 
 <?php register_nav_menus( array(
     'menu-1' => __( 'Primary Menu', 'terrene-theme' ),
+    'footer-menu' => __('Footer Menu', 'terrene-theme'),
 )); ?>
 
 <?php 
@@ -28,7 +29,7 @@
 add_action('wp_enqueue_scripts', 'terrene_theme_enqueue_styles' );
 
 function terrene_theme_enqueue_scripts() {
-    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/vendor/bootstrap.bundle.min.js', array( 'jquery' ));
+    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/vendor/bootstrap.bundle.min.js', array( 'jquery' ), true);
     wp_enqueue_script( 'slideshow', get_template_directory_uri() . '/js/slideshow.js', array(), true );
 }
 add_action( 'wp_enqueue_scripts', 'terrene_theme_enqueue_scripts' );
@@ -53,7 +54,7 @@ add_action( 'wp_enqueue_scripts', 'terrene_theme_enqueue_scripts' );
         add_theme_support( 'custom-logo', $defaults );
     }
 
-    add_action( 'after_setup_theme', 'terrene_theme_custom_logo_setup' )
+    add_action( 'after_setup_theme', 'terrene_theme_custom_logo_setup' );
 ?>
 
 <?php 
