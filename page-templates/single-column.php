@@ -13,7 +13,6 @@ Template Post Type: post, page
 
 
 get_header();
-get_template_part( 'slideshow' );
 get_template_part( 'navigation' );
 ?>
     <div class="site-content">
