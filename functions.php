@@ -83,7 +83,7 @@ add_action( 'wp_enqueue_scripts', 'terrene_theme_enqueue_scripts' );
             'default'   => '555-555-5555'
         ));
 
-        $wp_customize->add_setting('terrene-theme-footer-accounts-number-control', array(
+        $wp_customize->add_control('terrene-theme-footer-accounts-number-control', array(
             'label' => 'Accounts',
             'section' => 'terrene-theme-footer-callout-section',
             'settings' => 'terrene-theme-footer-accounts-number'
