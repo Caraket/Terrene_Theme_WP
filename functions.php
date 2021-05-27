@@ -69,6 +69,10 @@ add_action( 'wp_enqueue_scripts', 'terrene_theme_enqueue_scripts' );
             'default'      => '555-555-5555'
         ));
 
+        $wp_customize->add_setting('terrene-theme-footer-accounts-number', array(
+            'default'    => '555-555-5555'
+        ));
+
         $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'terrene-theme-footer-phone-number-control', array(
             'label'     => 'Phone',
             'section'   => 'terrene-theme-footer-callout-section',
@@ -77,6 +81,12 @@ add_action( 'wp_enqueue_scripts', 'terrene_theme_enqueue_scripts' );
 
         $wp_customize->add_setting('terrene-theme-footer-text-message', array(
             'default'   => '555-555-5555'
+        ));
+
+        $wp_customize->add_setting('terrene-theme-footer-accounts-number-control', array(
+            'label' => 'Accounts',
+            'section' => 'terrene-theme-footer-callout-section',
+            'settings' => 'terrene-theme-footer-accounts-number'
         ));
 
         $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'terrene-theme-footer-text-message-control', array(
