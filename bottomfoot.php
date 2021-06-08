@@ -10,6 +10,7 @@
 
             <div>
               <p>Phone: <a href="tel:218-256-3108"><?php echo get_theme_mod( 'terrene-theme-footer-phone-number'); ?></a></p>
+              <p>Accounts: <a href="tel:218-398-4177"><?php echo get_theme_mod( 'terrene-theme-footer-accounts-number'); ?></p>
               <p>Text: <a href="sms:218-256-3108"><?php echo get_theme_mod( 'terrene-theme-footer-text-message'); ?></a></p>
               <p>Address:<?php echo get_theme_mod( 'terrene-theme-footer-address'); ?></p>
               <p>Email: <a href="mailto:justin@terrenedevelopment.com"><?php echo get_theme_mod( 'terrene-theme-footer-email'); ?></a></p>  
