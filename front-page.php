@@ -37,4 +37,5 @@
             
         </div><!-- .site-content -->
         <?php get_sidebar(); ?>
+        <?php get_template_part( 'bottomfoot' ); ?>
         <?php get_footer();
